@@ -1,0 +1,316 @@
+html, body {
+  color: #FFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.none {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*.logo {
+  font-size: 1.2em;
+  margin-left: 2em;
+}
+
+.logoBox {
+  font-family: 'Courgette', cursive;
+  font-size: 0.14em;
+  height: 10em;
+  position: relative;
+  width: 10em;
+}
+
+.e, .r {
+  background-color: #470091;
+  font-size: 8em;
+  height: 50%;
+  opacity: 0.5;
+  position: relative;
+  width: 50%;
+}
+
+.e {
+  left: 22.5%;
+  top: 14.5%;
+}
+
+.r {
+  left: 27.5%;
+  top: -14.5%;
+}
+
+.letters {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.letterHolder {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}*/
+
+
+
+
+.logo {
+  font-size: 1.2em;
+  margin-left: 2em;
+}
+
+.logoBox {
+  color: #fff;
+  font-family: 'Courgette', cursive;
+  font-size: 0.3em;
+  height: 11em;
+  position: relative;
+  width: 17em;
+}
+
+.e, .r {
+  background-color: #8000ff;
+  background-color: #5600b3;
+  background-color: #6300cc;
+  font-size: 6em;
+  height: 46%;
+  opacity: 0.8;
+  position: relative;
+  width: 26%;
+}
+
+.e {
+  left: 22.5%;
+  top: 14.5%;
+}
+
+.r {
+  left: 27.5%;
+  top: -14.5%;
+}
+
+.letters {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.letterHolder {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logoFinish {
+  font-size: 0.6em;
+  left: 1.6em;
+  position: absolute;
+  top: 0.6em;
+}
+
+.nav {
+  background-color: #5C00BB;
+  background-color: #4a0099;
+  height: 10vh;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 5;
+}
+
+.menu {
+  font-size: 1.4em;
+  justify-content: space-between;
+  margin-right: 6em;
+  width: 26em;
+}
+
+.menuOption {
+  transition: font-size 0.25s;
+}
+
+.menuOption:hover, .menuHighlight {
+  font-size: 1.4em;
+}
+
+.menuOption {
+  color: #4a0099;
+  left: -5em;
+  position: relative;
+}
+
+.menuOptionLast {
+  color: #FFF;
+  left: 0em;
+  position: relative;
+}
+
+.changingbackground {
+  align-items: center;
+  background-color: #470091;
+  background-color: #5600b3;
+  background-color: #6300cc;
+  height: 90vh;
+  position: absolute;
+  top: 10vh;
+  width: 70vw;
+  z-index: -1;
+}
+
+.liner {
+  left: 70vw;
+  width: 30vw;
+}
+
+.colorBoxHolder {
+  filter: blur(4px);
+  flex-wrap: wrap;
+  height: 44em;
+  opacity: 0.4;
+  width: 44em;
+}
+
+.colorBox {
+  background-color: #470091;
+  background-color: #5600b3;
+  background-color: #6300cc;
+  height: 20%;
+  transition: background-color 1s;
+  width: 20%;
+}
+
+.intro {
+  /*background-color: #470091;*/
+  height: 540vh;
+  justify-content: space-between;
+  position: relative;
+  top: 10vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.intro .action {
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  top: 0vh;
+  transition: top 2s;
+  width: 70vw;
+}
+
+.pages {
+  flex-direction: column;
+  height: 100%;
+}
+
+.intro p {
+  /*font-size: 8em;*/
+  /*font-size: 2em;*/
+  transition: font-size 1s;
+  z-index: 5;
+}
+
+.pageTitle {
+  font-size: 6em;
+  margin: 0;
+  z-index: 5;
+}
+
+.pageBody {
+  font-size: 2em;
+  margin: 1em;
+  width: 50vw;
+  z-index: 5;
+}
+
+.hometext {
+  font-size: 8rem;
+}
+
+.hometext:hover {
+  font-size: 9rem;
+}
+
+.picSection {
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  top: 0vh;
+  transition: top 2s;
+  width: 30vw;
+}
+
+.picSection .pic {
+  background-size: 100% 100%;
+  height: 100%;
+  opacity: 0.4;
+  width: 30vw;
+}
+
+.picOne {
+  background-image: url("../img/one.jpg");
+}
+
+.picTwo {
+  background-image: url("../img/two.jpg");
+}
+
+.picThree {
+  background-image: url("../img/three.jpg");
+}
+
+.picFour {
+  background-image: url("../img/four.jpg");
+}
+
+.picFive {
+  background-image: url("../img/five.jpg");
+}
+
+.picSix {
+  background-image: url("../img/six.jpg");
+}
+
+.contactPageBody {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.c-icon {
+  font-size: 2em;
+  margin: 0.2em 0;
+}
+
+.contact-icon {
+  height: 1em;
+  margin-right: 0.4em;
+  width: 1em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
